@@ -2,6 +2,7 @@ package kr.co.tjoeun.kotlinbasic_20200704
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,6 +16,12 @@ class MainActivity : AppCompatActivity() {
 
             //Toast는 JAVA시절부터 쓰던 클래스. static method
             Toast.makeText(this, "버튼 눌림", Toast.LENGTH_SHORT).show()
+
+            Log.d("메인화면", "버튼 눌림")
+
+            Log.e("메인화면", "에러시 로그 찍을 때 사용")
+
+
 
         }
     }

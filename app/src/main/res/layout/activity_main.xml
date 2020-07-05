@@ -9,6 +9,26 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="입력할 내용이 출력될 자리"/>
+
+    <EditText
+        android:id="@+id/inputEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="여기에 적은 내용이 위에 반영됩니다."
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/applyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="반영하기"/>
+
     <Button
         android:id="@+id/touchBtn"
         android:layout_width="match_parent"
